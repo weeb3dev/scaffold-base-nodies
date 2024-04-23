@@ -55,7 +55,7 @@ const config: HardhatUserConfig = {
       accounts: [deployerPrivateKey],
     },
     mainnet: {
-      url: `https://eth-mainnet.alchemyapi.io/v2/${providerApiKey}`,
+      url: `https://eth-pokt.nodies.app`,
       accounts: [deployerPrivateKey],
     },
     sepolia: {
@@ -63,7 +63,7 @@ const config: HardhatUserConfig = {
       accounts: [deployerPrivateKey],
     },
     arbitrum: {
-      url: `https://arb-mainnet.g.alchemy.com/v2/${providerApiKey}`,
+      url: `https://arb-pokt.nodies.app`,
       accounts: [deployerPrivateKey],
     },
     arbitrumSepolia: {
@@ -71,19 +71,19 @@ const config: HardhatUserConfig = {
       accounts: [deployerPrivateKey],
     },
     optimism: {
-      url: `https://opt-mainnet.g.alchemy.com/v2/${providerApiKey}`,
+      url: `https://op-pokt.nodies.app`,
       accounts: [deployerPrivateKey],
     },
     optimismSepolia: {
-      url: `https://opt-sepolia.g.alchemy.com/v2/${providerApiKey}`,
+      url: `https://op-sepolia-pokt.nodies.app`,
       accounts: [deployerPrivateKey],
     },
     polygon: {
-      url: `https://polygon-mainnet.g.alchemy.com/v2/${providerApiKey}`,
+      url: `https://polygon-pokt.nodies.app`,
       accounts: [deployerPrivateKey],
     },
     polygonMumbai: {
-      url: `https://polygon-mumbai.g.alchemy.com/v2/${providerApiKey}`,
+      url: `https://polygon-mumbai-pokt.nodies.app`,
       accounts: [deployerPrivateKey],
     },
     polygonZkEvm: {
@@ -95,7 +95,7 @@ const config: HardhatUserConfig = {
       accounts: [deployerPrivateKey],
     },
     gnosis: {
-      url: "https://rpc.gnosischain.com",
+      url: "https://gnosis-pokt.nodies.app",
       accounts: [deployerPrivateKey],
     },
     chiado: {
@@ -108,6 +108,38 @@ const config: HardhatUserConfig = {
     },
     scroll: {
       url: "https://rpc.scroll.io",
+      accounts: [deployerPrivateKey],
+    },
+    avalanche: {
+      url: "https://avax-pokt.nodies.app/ext/bc/C/rpc",
+      accounts: [deployerPrivateKey],
+    },
+    bsc: {
+      url: "https://bsc-pokt.nodies.app",
+      accounts: [deployerPrivateKey],
+    },
+    evmos: {
+      url: "https://evmos-pokt.nodies.app",
+      accounts: [deployerPrivateKey],
+    },
+    fantom: {
+      url: "https://fantom-pokt.nodies.app",
+      accounts: [deployerPrivateKey],
+    },
+    fuse: {
+      url: "https://fuse-pokt.nodies.app",
+      accounts: [deployerPrivateKey],
+    },
+    kava: {
+      url: "https://kava-pokt.nodies.app",
+      accounts: [deployerPrivateKey],
+    },
+    klaytn: {
+      url: "https://kava-pokt.nodies.app",
+      accounts: [deployerPrivateKey],
+    },
+    metis: {
+      url: "https://metis-pokt.nodies.app",
       accounts: [deployerPrivateKey],
     },
     pgn: {
