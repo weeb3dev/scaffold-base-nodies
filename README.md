@@ -41,8 +41,8 @@ To get started with Scaffold-Base, follow the steps below:
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/BuidlGuidl/scaffold-base
-cd scaffold-base
+git clone https://github.com/weeb3dev/scaffold-base-nodies
+cd scaffold-base-nodies
 yarn install
 ```
 
